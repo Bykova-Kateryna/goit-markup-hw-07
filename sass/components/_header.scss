@@ -64,6 +64,10 @@ nav{
     @extend %ul;
 }
 .header-contact__link {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
     color: $main-text-color;
     font-weight: 500;
     font-size: 14px;
@@ -78,8 +82,11 @@ nav{
         color: $web-color;
     }
 }
-.header-contact__mail{
+.header-contact__item{
     margin-right: 50px;
+        &:last-child{
+            margin-right: 0;
+        }
 }
 
 .header-contact__img{

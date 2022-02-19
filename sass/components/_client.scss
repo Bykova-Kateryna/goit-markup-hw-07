@@ -1,0 +1,45 @@
+.client{
+    text-align: center;
+   @extend %section;
+}
+.client-tittle{
+    @extend %m-p;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.17;
+    color: $title-text-color;
+
+    margin-bottom: 50px;
+}
+.client-list{
+    @extend %flex;
+    @extend %ul;
+    justify-content: center;
+}
+.client-list__item{
+    margin-right: 30px;
+        &:last-child{
+            margin-right: 0px;
+        }
+}
+.client-list__link{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    width: 170px;
+    height: 92px;
+    border: 1px solid $link;
+    border-radius: 4px;
+    color: $link;
+
+    transition: color $transition, border $transition;
+
+        &:hover, &:focus{
+            border: 1px solid $web-color;
+            color: $web-color;
+        }
+}
+.client-list__img{
+    fill: currentColor;
+}
