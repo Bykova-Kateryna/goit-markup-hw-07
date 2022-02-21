@@ -1,5 +1,5 @@
 .logo {
-    font-family: Raleway, sans-serif;
+    font-family: $logo-font-style;
     font-weight: bold;
     font-size: 26px;
     color: $title-text-color;
@@ -13,7 +13,7 @@
     color: $web-color;
 }
 .footer-logo{
-    font-family: Raleway, sans-serif;
+    font-family: $logo-font-style;
     font-weight: bold;
     font-size: 26px;
     line-height: 1.19;

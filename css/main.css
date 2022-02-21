@@ -6,6 +6,10 @@ body {
   letter-spacing: 0.03em;
 }
 
+img {
+  display: block;
+}
+
 .site-nav-list, .header-contact, .modal-agreement__list, .benefits-list, .services-list, .team-list, .employee-contact, .client-list, .footer-connect-list, .portfolio-button, .portfolio-list {
   margin: 0;
   padding: 0;
@@ -29,10 +33,6 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-}
-
-img {
-  display: block;
 }
 
 .conteiner {
@@ -72,7 +72,7 @@ img {
 
 .site-nav-list__link {
   position: relative;
-  color: var(--title-text-color);
+  color: #212121;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -187,8 +187,8 @@ img {
   width: 1600px;
   margin-left: auto;
   margin-right: auto;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("/images/backgraund.jpg");
-  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("/images/backgraund.jpg");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("../../images/backgraund.jpg");
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../../images/backgraund.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;

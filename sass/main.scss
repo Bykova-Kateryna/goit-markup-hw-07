@@ -1,32 +1,6 @@
 @import 'utils/variables';
-
-body{
-    font-family: Roboto, sans-serif;
-    color: $main-text-color;
-    background-color: $backgraund-color-general;
-    letter-spacing: 0.03em;
-}
-%ul{
-    margin: 0;
-    padding: 0;
-    list-style: none;
-}
-%m-p{
-    margin: 0;
-    padding: 0;
-
-}
-%section{
-    padding-top: 94px;
-    padding-bottom: 94px;
-}
-%flex{
-    display: flex; 
-    align-items: center;
-}
-img{
-    display: block;
-}
+@import 'base/\ base';
+@import 'utils/placeholders';
 @import 'components/conteiner';
 @import 'components/header';
 @import 'components/logo';

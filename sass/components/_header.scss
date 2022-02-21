@@ -28,7 +28,7 @@ nav{
 
 .site-nav-list__link {
     position: relative;
-    color: var(--title-text-color);
+    color: $title-text-color;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -39,7 +39,7 @@ nav{
     padding-bottom: 32px;
     display: inline-flex;
 
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: color $transition;
     &:hover, &:focus{
         color: $web-color;
     }
@@ -77,7 +77,7 @@ nav{
     padding-top: 32px;
     padding-bottom: 32px;
 
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: color $transition;
     &:hover, &:focus{
         color: $web-color;
     }
